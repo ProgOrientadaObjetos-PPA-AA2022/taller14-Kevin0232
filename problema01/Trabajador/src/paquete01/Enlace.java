@@ -47,7 +47,7 @@ public class Enlace {
             establecerConexion();
             Statement statement = obtenerConexion().createStatement();
             String data = String.format("INSERT INTO Trabajadores (cedula, nombres, correo, sueldo, mes)"
-                    + "values (%s, '%s', '%s', '%s', %s)",
+                    + "values (%s, '%s', '%s', '%s', '%s')",
                     c.obtenerCedula(), 
                     c.obtenerNombres(),
                     c.obtenerCorreo(),

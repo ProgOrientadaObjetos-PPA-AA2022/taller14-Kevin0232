@@ -68,7 +68,7 @@ public class Trabajador {
     @Override
     public String toString() {
         String cadena = String.format("Cedula: %s - Nombre: %s \n-"
-                + " Correo: %s\nSueldo: %.2f - Mes del Sueldo: %s",
+                + " Correo: %s\nSueldo: %.2f - Mes del Sueldo: %s\n",
                 obtenerCedula(),
                 obtenerNombres(),
                 obtenerCorreo(),
@@ -76,6 +76,4 @@ public class Trabajador {
                 obtenerMesSueldo());
         return cadena;
     }
-    
-    
 }
